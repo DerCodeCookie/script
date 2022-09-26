@@ -14,10 +14,11 @@ local Window = Library.CreateLib("Jokemon Script By Leo", "Ocean")
             game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
             game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
         end
+    end)
 
     
-    MainSection:NewToggle("Super-Human", "go fast and jump high", function(state)
-        if state then
+    MainSection:NewToggle("Auto Spawn legis shinys boss", "what the name says lmao", function(state2)
+        if state2 then
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3330.61572, 547.147705, -1368.37244, -0.472575933, 1.60357683e-08, -0.881289959, -1.08831122e-08, 1, 2.40316638e-08, 0.881289959, 2.09479634e-08, -0.472575933)
         wait(30)
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4618.26709, 513.847717, -495.529541, -0.0534437113, -4.69884687e-10, 0.998570859, 2.95893243e-09, 1, 6.28919861e-10, -0.998570859, 2.98831559e-09, -0.0534437113)
@@ -51,8 +52,7 @@ local Window = Library.CreateLib("Jokemon Script By Leo", "Ocean")
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3487.24658, 492.271667, -4092.04199, -0.72861284, -0.0579663143, 0.682468474, 0.0117659569, 0.995205998, 0.0970905647, -0.684824705, 0.0787713304, -0.724437833)
         wait(30)
         end
-	end)
-
+    end)
     MainSection:NewButton("Infinite Yield", "FE Admin Commands", function()
         loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
     end)
