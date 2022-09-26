@@ -1,0 +1,141 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Jokemon Script By Leo", "Ocean")
+    -- MAIN
+    local Main = Window:NewTab("Main")
+    local MainSection = Main:NewSection("Main")
+
+
+
+    MainSection:NewToggle("Super-Human", "go fast and jump high", function(state)
+        if state then
+            game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 200
+            game.Players.LocalPlayer.Character.Humanoid.JumpPower = 120
+        else
+            game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+            game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
+        end
+
+    
+    MainSection:NewToggle("Super-Human", "go fast and jump high", function(state)
+        if state then
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3330.61572, 547.147705, -1368.37244, -0.472575933, 1.60357683e-08, -0.881289959, -1.08831122e-08, 1, 2.40316638e-08, 0.881289959, 2.09479634e-08, -0.472575933)
+        wait(30)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4618.26709, 513.847717, -495.529541, -0.0534437113, -4.69884687e-10, 0.998570859, 2.95893243e-09, 1, 6.28919861e-10, -0.998570859, 2.98831559e-09, -0.0534437113)
+        wait(30)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4597.25781, 495.847839, -1148.37476, 0.998693049, -1.56568369e-09, -0.05110953, -1.87396987e-09, 1, -6.72517331e-08, 0.05110953, 6.7259613e-08, 0.998693049)
+        wait(30)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3780.7019, 495.847839, -1391.47815, 0.218816429, -4.10472438e-08, -0.975766063, 1.4582703e-08, 1, -3.87965002e-08, 0.975766063, -5.73999515e-09, 0.218816429)
+        wait(30)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3118.75, 436.800018, 448, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+        wait(30)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2513.52417, 527.745728, 17.7034321, 0.641667724, -3.059972e-10, -0.766982734, -3.64681688e-11, 1, -4.29472041e-10, 0.766982734, 3.03548797e-10, 0.641667724)
+        wait(30)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2104.95386, 230.447861, -1216.24841, 0.997422338, -7.30817717e-09, 0.0717543215, 1.62126756e-09, 1, 7.931353e-08, -0.0717543215, -7.89927554e-08, 0.997422338)
+        wait(30)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3099.16992, 378.92157, 620.432068, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+        wait(30)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3213.02197, 286.734589, 764.832031, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+        wait(30)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2655.48047, 279.981293, 402.52066, 0.785076141, -2.61002846e-08, 0.619399309, 1.38211131e-08, 1, 2.46200784e-08, -0.619399309, -1.07678479e-08, 0.785076141)
+        wait(30)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4682.80957, 472.036316, -3796.04517, 0.90630275, 0.102116726, -0.410106629, 2.16124245e-05, 0.970359087, 0.241667584, 0.422628999, -0.219032869, 0.87943691)
+        wait(30)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-5158.02441, 495.847839, -2502.51855, -0.998322427, -2.80435888e-08, -0.0578997172, -2.90039974e-08, 1, 1.5747089e-08, 0.0578997172, 1.73999943e-08, -0.998322427)
+        wait(30)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-5158.02441, 495.847839, -2502.51855, -0.998322427, 9.39315115e-08, -0.0578997172, 9.71482663e-08, 1, -5.27425676e-08, 0.0578997172, -5.82789426e-08, -0.998322427)
+        wait(30)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3661.39624, 835.382324, -4155.35107, 0.23362799, -0.489977121, 0.839845419, 1.2229164e-05, 0.863750279, 0.503920138, -0.97232604, -0.117719568, 0.201802224)
+        wait(30)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2563.8689, 408.095367, -3566.20459, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+        wait(30)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3487.24658, 492.271667, -4092.04199, -0.72861284, -0.0579663143, 0.682468474, 0.0117659569, 0.995205998, 0.0970905647, -0.684824705, 0.0787713304, -0.724437833)
+        wait(30)
+        end
+	end)
+
+    MainSection:NewButton("Infinite Yield", "FE Admin Commands", function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+    end)
+    --Teleport
+    local Main = Window:NewTab("Teleport")
+    local MainSection = Main:NewSection("Teleport To Areas")
+    MainSection:NewButton("Teleport To Pokecenter", "Teleports you to Pokecenter", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3330.61572, 547.147705, -1368.37244, -0.472575933, 1.60357683e-08, -0.881289959, -1.08831122e-08, 1, 2.40316638e-08, 0.881289959, 2.09479634e-08, -0.472575933)
+    end)
+    MainSection:NewButton("Teleport To Spawn", "Teleports you to Spawn", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4618.26709, 513.847717, -495.529541, -0.0534437113, -4.69884687e-10, 0.998570859, 2.95893243e-09, 1, 6.28919861e-10, -0.998570859, 2.98831559e-09, -0.0534437113)
+    end)
+    MainSection:NewButton("Teleport To Bushy Fields", "Teleports you to Bushy fields", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4597.25781, 495.847839, -1148.37476, 0.998693049, -1.56568369e-09, -0.05110953, -1.87396987e-09, 1, -6.72517331e-08, 0.05110953, 6.7259613e-08, 0.998693049)
+    end)
+    MainSection:NewButton("Teleport To Mild Forest", "Teleports you to Mild Forest", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3780.7019, 495.847839, -1391.47815, 0.218816429, -4.10472438e-08, -0.975766063, 1.4582703e-08, 1, -3.87965002e-08, 0.975766063, -5.73999515e-09, 0.218816429)
+    end)
+    MainSection:NewButton("Teleport To Pebblerock Cave", "Teleports you to Pebblerock Cave", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3118.75, 436.800018, 448, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+    end)
+    MainSection:NewButton("Teleport To Cliffview", "Teleports you to Cliffview", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2513.52417, 527.745728, 17.7034321, 0.641667724, -3.059972e-10, -0.766982734, -3.64681688e-11, 1, -4.29472041e-10, 0.766982734, 3.03548797e-10, 0.641667724)
+    end)
+    MainSection:NewButton("Teleport To Northwind Pass", "Teleports you to Northwind Pass", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1826.50183, 541.425476, 152.380432, 0.993764699, 1.0966402e-08, 0.111497857, -2.2896355e-08, 1, 1.05716708e-07, -0.111497857, -1.07610425e-07, 0.993764699)
+    end)
+    MainSection:NewButton("Teleport To Riverbed", "Teleports you to Riverbed", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2104.95386, 230.447861, -1216.24841, 0.997422338, -7.30817717e-09, 0.0717543215, 1.62126756e-09, 1, 7.931353e-08, -0.0717543215, -7.89927554e-08, 0.997422338)
+    end)
+    MainSection:NewButton("Teleport To TerracoveChasm/Cave", "Teleports you to TerracoveChasm/Cave", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3099.16992, 378.92157, 620.432068, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+    end)
+    MainSection:NewButton("Teleport To Terracove Maze", "Teleports you to Terracove Maze", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3213.02197, 286.734589, 764.832031, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+    end)
+    MainSection:NewButton("Teleport To Regi Chamber", "Teleports you to Regi Chamber", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2655.48047, 279.981293, 402.52066, 0.785076141, -2.61002846e-08, 0.619399309, 1.38211131e-08, 1, 2.46200784e-08, -0.619399309, -1.07678479e-08, 0.785076141)
+    end)
+    MainSection:NewButton("Teleport To Mapleleaf Forest", "Teleports you to Mapleleaf Forest", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4682.80957, 472.036316, -3796.04517, 0.90630275, 0.102116726, -0.410106629, 2.16124245e-05, 0.970359087, 0.241667584, 0.422628999, -0.219032869, 0.87943691)
+    end)
+    MainSection:NewButton("Teleport To Rotsune Plains", "Teleports you to Rotsune Plains", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-5158.02441, 495.847839, -2502.51855, -0.998322427, -2.80435888e-08, -0.0578997172, -2.90039974e-08, 1, 1.5747089e-08, 0.0578997172, 1.73999943e-08, -0.998322427)
+    end)
+    MainSection:NewButton("Teleport To Grassy Plateu", "Teleports you to Grassy Plateu", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-5158.02441, 495.847839, -2502.51855, -0.998322427, 9.39315115e-08, -0.0578997172, 9.71482663e-08, 1, -5.27425676e-08, 0.0578997172, -5.82789426e-08, -0.998322427)
+    end)
+    MainSection:NewButton("Teleport To Salavar Peak", "Teleports you to Salavar Peak", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3661.39624, 835.382324, -4155.35107, 0.23362799, -0.489977121, 0.839845419, 1.2229164e-05, 0.863750279, 0.503920138, -0.97232604, -0.117719568, 0.201802224)
+    end)
+    MainSection:NewButton("Teleport To Salavar Mountains", "Teleports you to Salavar Mountains", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2563.8689, 408.095367, -3566.20459, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+    end)
+    MainSection:NewButton("Teleport To Salavar Cave", "Teleports you to Salavar Cave", function()
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3487.24658, 492.271667, -4092.04199, -0.72861284, -0.0579663143, 0.682468474, 0.0117659569, 0.995205998, 0.0970905647, -0.684824705, 0.0787713304, -0.724437833)
+    end)
+    --LOCAL PLAYER
+    local Player = Window:NewTab("Player")
+    local PlayerSection = Player:NewSection("Player")
+
+    PlayerSection:NewSlider("Walkspeed", "SPEED!!", 500, 16, function(s)
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+    end)
+
+    PlayerSection:NewSlider("Jumppower", "JUMP HIGH!!", 350, 50, function(s)
+        game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
+    end)
+
+    PlayerSection:NewButton("Reset WS/JP", "Resets to all defaults", function()
+        game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+    end)
+
+
+    --Other
+    local Other = Window:NewTab("Other")
+    local OtherSection = Other:NewSection("Other")
+
+    OtherSection:NewButton("Chat Spoofer", "Lets you chat for other people", function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/djBfk8Li'),true))()
+    end)
+
+    OtherSection:NewButton("Bypassed Fly", "bird mode", function()
+        loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\40\39\104\116\116\112\115\58\47\47\103\105\115\116\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\109\101\111\122\111\110\101\89\84\47\98\102\48\51\55\100\102\102\57\102\48\97\55\48\48\49\55\51\48\52\100\100\100\54\55\102\100\99\100\51\55\48\47\114\97\119\47\101\49\52\101\55\52\102\52\50\53\98\48\54\48\100\102\53\50\51\51\52\51\99\102\51\48\98\55\56\55\48\55\52\101\98\51\99\53\100\50\47\97\114\99\101\117\115\37\50\53\50\48\120\37\50\53\50\48\102\108\121\37\50\53\50\48\50\37\50\53\50\48\111\98\102\108\117\99\97\116\111\114\39\41\44\116\114\117\101\41\41\40\41\10\10")()
+    end)
